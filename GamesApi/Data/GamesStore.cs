@@ -1,7 +1,8 @@
 using GamesApi.Models;
 namespace GamesApi.Data;
 
-public static class GamesStore {
+public static class GamesStore
+{
     // Счётчик для генерации уникальных Id
     private static int _nextId = 4;
     // Список игр — начальные данные
